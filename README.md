@@ -2,26 +2,28 @@
 
 ## About
 
-    Open Web Application Security Project (OWASP) Top 10 is a standard awareness document containing the most common security risks. The project aims to implement the web security knowledge and help organizations in developing a secure website/assessing OWASP TOP 10 2021 vulnerabilities/ mitigating the vulnerabilities related risks.
+   Open Web Application Security Project (OWASP) Top 10 is a standard awareness document containing the most common security risks. The project aims to implement the web security knowledge and help organizations in developing a secure website/assessing OWASP TOP 10 2021 vulnerabilities/ mitigating the vulnerabilities related risks.
     
-------------------------------------------------------------------------------------------------------------
+------------------------------
 
 ## What this project Does
     
-    It implements/mitigate the vulnerabilites related to OWASP TOP 10 2021 by installing pen-testing lab enviroment in virtualized environment that have the following virtual machines(VM):
+   It implements/mitigate the vulnerabilites related to OWASP TOP 10 2021 by installing pen-testing lab enviroment in virtualized environment that have the following virtual machines(VM):
     - VM1: A web server-hosted website with OWASP TOP 10 2021 vulnerabilities.
     - VM2: The KALI Linux machine.
     - VM3: Opnsense Web application firewall (WAF) running to inspect traffic destined for virtual machine 1 and patch the OWASP TOP 10 2021 vulnerabilities.
 
     
    ![image](https://user-images.githubusercontent.com/122940334/216792465-77977b05-b0ca-44d8-bc7e-385757c5a4b4.png)
+   
  
--------------------------------------------------------------------------------------------------------------
+-----------------------------------------------
+
 ## How This Project Is Done
 
-    First, the Web Application Firewall (WAF) has been set up and configured by installing Opnsense WAF iso image and using it to create the WAF as a virtual machine within VirtualBox and bWAPP vulnerable web app has been installed inside the other VM. The bWAPP is a free and open-source web application that is intentionally designed to be insecure in order to assist security professionals, developers, and students in identifying and preventing web vulnerabilities. It provides a platform for conducting successful penetration testing and ethical hacking projects and is distinguished by its comprehensive range of over 100 web vulnerabilities, including those listed in the OWASP Top 10 project. Its purpose is to educate users on how to protect against web vulnerabilities and improve their skills in security testing. By installing the needed tools we successfully implemented the OWASP TOP 10 vulnerabilities and mitigated them.
+   First, the Web Application Firewall (WAF) has been set up and configured by installing Opnsense WAF iso image and using it to create the WAF as a virtual machine within VirtualBox and bWAPP vulnerable web app has been installed inside the other VM. The bWAPP is a free and open-source web application that is intentionally designed to be insecure in order to assist security professionals, developers, and students in identifying and preventing web vulnerabilities. It provides a platform for conducting successful penetration testing and ethical hacking projects and is distinguished by its comprehensive range of over 100 web vulnerabilities, including those listed in the OWASP Top 10 project. Its purpose is to educate users on how to protect against web vulnerabilities and improve their skills in security testing. By installing the needed tools we successfully implemented the OWASP TOP 10 vulnerabilities and mitigated them.
 
--------------------------------------------------------------------------------------------------------------
+-------------
 ## What I Learned
 
 During this project, I and my teammates managed to expand our theoretical and practical knowledge regarding the OWASP top 10 vulnerabilities and web application security in general and described each category, and discovered a vulnerability for each category. After that, we managed to exploit and then mitigate each vulnerability either by using the web application firewall or by a modification in the source code. 
@@ -61,6 +63,11 @@ It is essential for organizations to implement robust access controls in order t
     the URL field, and the error message shown to block the user from applying the attack.
     
     ![image](https://user-images.githubusercontent.com/122940334/216853399-140a1e51-5fcf-4c31-957d-e642206138a4.png)
+    
+
+----------------------
+
+Please hit me up at (gha.abdulhakim@gmail.com) if you have any questions or want more details.
 
     
 
