@@ -2,7 +2,7 @@
 
 ## About
 
-   Open Web Application Security Project (OWASP) Top 10 is a standard awareness document containing the most common security risks. The project aims to implement the web security knowledge and help organizations in developing a secure website/assessing OWASP TOP 10 2021 vulnerabilities/ mitigating the vulnerabilities related risks.
+   Open Web Application Security Project (OWASP) Top 10 is a standard awareness document containing the most common security risks. The project aims to implement the web security knowledge and help organizations in developing a secure website/assessing OWASP TOP 10 2021 vulnerabilities/ mitigating the vulnerabilities related risks.This project was a university project under FC311 web security course.
     
 ------------------------------
 
