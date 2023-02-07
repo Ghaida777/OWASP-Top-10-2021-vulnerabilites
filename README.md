@@ -67,7 +67,7 @@ It is essential for organizations to implement robust access controls in order t
 
 ----------------------
 
-Please hit me up at (gha.abdulhakim@gmail.com) if you have any questions or want more details.
+Please hit me up at <a href="https://www.linkedin.com/in/ghaidalamri"> Linkedin</a> if you have any questions or want more details.
 
     
 
